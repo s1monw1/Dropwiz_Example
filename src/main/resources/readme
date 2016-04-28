@@ -1,0 +1,4 @@
+java -jar de.swirtz.dropwizard.example-1.0-SNAPSHOT.jar server classes\server.yml
+
+POST http://localhost:56789/wizards json {"name": "Lea"}
+GET http://localhost:56789/wizards/Lea
